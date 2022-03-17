@@ -41,4 +41,3 @@ pila.push('dato3');
 // console.log('print ', pila.print());
 // console.log('peek ', pila.peek());
 // console.log('size ', pila.size());
-// console.log('size ', pila.size());
