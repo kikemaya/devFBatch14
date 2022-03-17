@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <label for="">Nombre: </label>
+    <input type="text" id="nombre"><br><br>
+
+    <label for="">Apellido: </label>
+    <input type="text" id="apellido"><br><br>
+
+    <label for="">Grupo: </label>
+    <input type="text" id="grupo"><br><br>
+
+    <button onclick="guardar()">Guardar</button>
+    <button onclick="mostrar()">Mostrar</button>
+    <button onclick="filtrar()">filtrar</button>
+  </div>
+
+  <div style="display: flex;">
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Grupo</th>
+          </tr>
+        </thead>
+        <tbody id="tabla1"></tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Grupo</th>
+          </tr>
+        </thead>
+        <tbody id="tabla2"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
