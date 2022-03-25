@@ -1,0 +1,67 @@
+ESCRIBIR UN PROGRAMA EN UN DIAGRAMA
+DE FLUJO (DDF)
+QUE ME DIGA SI UN NUMERO NATURAL
+DADO ES PAR O IMPAR.
+
+herramientas para realizarlo:
+- pseint
+- draw.io
+- figma
+
+Si ya tienes el diagrama, hacerlo en vsCode con JavaScript
+
+
+
+
+INICIO
+    DECLARAR entero, impar
+    ESCRIBIR ("Introduce un numero")
+    LEER (entero)
+    SI (entero === 1,3,6,9), ENTONCES
+        LEER ("impar")
+    SI NO (entero === 2,4,6,8), ENTONCES
+        LEER ("par")
+    FIN SI
+FIN
+
+inicio
+    declarar numero
+    solicitar un 'numero' al usuario
+    leer numero
+    dividir el numero entre 2
+    si el residuo es cero
+    imprimir 'numero es par'
+    sino
+    imprimir numero es impar
+fin
+
+INICIO
+    Datos:
+        let numero;
+
+        Imprimir ("Introduce un numero entero");
+        leer numero;
+    Proceso:
+        Si (numero % 2 === 0), entonces
+        Imprimir("Tu numero es par");
+        Si no, entonces
+        Imprimir("Tu numero es IMPAR").
+        fin de la condicion
+FIN.
+
+algoritmo Par, Impar
+
+declarar entero a, b
+
+inicio
+    escribir ("Digite un primer número (entero)")
+    leer(a)
+    escribir ("segundo número (entero)"
+    leer(b)
+    c = a % b
+    si c == 0, entonces
+        escribir "Par"
+    si no, entonces
+        escribir "Impar"
+    fin del condicional
+fin
