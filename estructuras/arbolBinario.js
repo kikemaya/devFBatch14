@@ -77,5 +77,6 @@ arbolBinario.insertar(85);
 arbolBinario.insertar(23);
 arbolBinario.insertar(95);
 arbolBinario.find(44);
-arbolBinario.find(20);
+arbolBinario.find(50);
+arbolBinario.find(23);
 arbolBinario.find(95);
